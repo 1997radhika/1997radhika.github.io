@@ -100,12 +100,16 @@ h5 {
 }
  ul, li, ol {
   list-style-type: circle;
-  margin-top: 1em;
-  margin-bottom: 1 em;
   margin-left: 0;
   margin-right: 0;
   padding-left: 40px;
 }
+li::before {
+  content: "•"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: blue; /* Or a color you prefer */
+}
+
 p {
     margin: 0px;
     font-weight: 300;
