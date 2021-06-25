@@ -99,9 +99,13 @@ h5 {
      outline: none;
 }
  ul, li, ol {
-     margin: 0px;
-     padding: 0px;
-     list-style: none;
+      display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
 }
 p {
     margin: 0px;
