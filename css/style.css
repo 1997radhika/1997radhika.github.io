@@ -100,7 +100,7 @@ h5 {
 }
  ul, li, ol {
       display: block;
-  list-style-type: disc;
+  list-style-type: circle;
   margin-top: 1em;
   margin-bottom: 1 em;
   margin-left: 0;
